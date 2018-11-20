@@ -6,3 +6,6 @@ it ('should add get multiplication table', () => {
 it ('should add get multiplication table', () => {
     expect(getMultiplication(4, 2)).toBe(null);
 });
+it ('should add get multiplication table', () => {
+    expect(getMultiplication(-4, -2)).toBe(null);
+});
